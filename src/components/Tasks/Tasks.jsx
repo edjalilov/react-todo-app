@@ -10,13 +10,13 @@ export const Tasks = ({ tasks, onComplete, onDelete }) => {
     <section className={styles.container}>
       <div className={styles.tasks}>
         <div className={styles.wrapper}>
-          <p>Create tasks</p>
+          <p>Created tasks</p>
           <span>{tasksQuantity}</span>
         </div>
         <div className={styles.wrapper}>
           <p className={styles.purple_text}>Completed</p>
           <span>
-            {completedTasks} 0f {tasksQuantity}
+            {completedTasks} of {tasksQuantity}
           </span>
         </div>
       </div>
